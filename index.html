@@ -8,45 +8,148 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons"rel="stylesheet">
       <!-- Compiled and minified CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
-
+    <link rel="stylesheet"  href="style.css" />
 </head>
-<style>
-    body {
-    background:url(fondo.jpg);
-    background-size:100%;
-}
-.md-30 {
-	font-size: 30px;
-}
-.centrar{
-    display: block;
-    margin:auto;
-}
-</style>
-<body  id="particles-js">
-    <div class="container section">
-        <a href="#" class="sidenav-trigger" data-target="menu-side">
-            <i class="btn-floating pulse material-icons md-30 center">perm_identity</i>
-        </a>
-        <ul class="sidenav" id="menu-side">
-            <li>
-                <div class="user-view">
-                    <div class="background">
-                        <img src="image-menu.jpg" alt="">
-                    </div>
-                    <a href="#">
-                        <img src="logo-ml.png" alt="" class="centrar">
-                    </a>
-                    <a href="#">
-                        <span class="name white-text Heading h5"class="centrar">Martha Lizarazo</span>
-                    </a>
+<body>
+    <header>
+            <ul id="navigationMenu">
+                    <li>
+                        <a class="acerca-de-mi" href="#">
+                            <span>Acerca de Mi</span>
+                        </a>
+                    </li>
+                
+                    <li>
+                        <a class="habilidades" href="#">
+                            <span>Habilidades</span>
+                        </a>
+                    </li>
+                
+                    <li>
+                         <a class="proyectos" href="#">
+                            <span>Proyectos/Trabajos</span>
+                         </a>
+                    </li>
+                
+                    <li>
+                        <a class="estudios-cursos" href="#">
+                            <span>Estudios/Cursos</span>
+                        </a>
+                    </li>
+                
+                    <li>
+                        <a class="contact" href="#">
+                            <span>Contacto</span>
+                        </a>
+                    </li>
+                </ul>
+
+    <div id="particles-js">
+            
+        <div class="textos">
+            <h1 class="titulo">Martha Lizarazo</h1>
+            <h3 class="subtitulo">Fron-End Developer</h3>
+            <a href="#" class="boton">Mi CV</a>
+        </div>
+        <div class="sesgoabajo"></div>
+     </div>
+
+    </header>
+    <main>
+        <section class="acerca-de">
+            <div class="contenedor">
+                <div class="foto-perfil">
+                    <img src="foto-mia.jpg" alt="">
+                <h2 class="sobre-mi">Sobre Mi</h2>
+                <h3 class="yo">Martha Lizarazo</h3>
+                <p class="parrafo">¡Hola! Soy Martha Lizarazo, actualmente me desempeño como Front-End Developer, soy Analista en Sitemas y Diseñadora Gáfica por pasión.</p>
+                <p class="parrafo">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Temporibus dignissimos iure quod fuga quas molestias voluptas! Id, ullam. Sint ab, voluptas 
+                                    similique voluptatibus recusandae corrupti architecto a ad minima molestias laborum, inventore atque nostrum quo iure adipisci, cum ullam quis esse 
+                                    tenetur ipsa! Minima amet, quibusdam accusantium nisi tempore, tempora exercitationem beatae sit perferendis laboriosam iusto enim similique. Blanditiis 
+                                    optio labore explicabo eos eius quae a fuga, tenetur deserunt ullam assumenda sequi. Facere commodi autem quasi.</p>
+                <a href=" #" class="boton">Inicio</a>
+            </div>
+            </div>
+        </section>
+
+        <section class="galeria">
+            <div class="sesgoarriba"></div>
+            <div class="imagenes">
+                <img src="1.jpg" alt="">
+            </div>
+
+            <div class="imagenes">
+                <img src="2.jpg" alt="">
+            </div>
+
+            <div class="imagenes">
+                <img src="3.jpg" alt="">
+                <div class="encima">
+                    <h2>Martha Lizarazo</h2>
+                    <h2>Habilidades</h2>
+                    <div></div>
                 </div>
-            </li>
-        </ul>
-    </div>
+            </div>
 
-   
+            <div class="imagenes">
+                <img src="4.jpg" alt="">
+            </div>
+            
+            <div class="imagenes">
+                <img src="5.jpg" alt="">
+            </div>
 
+        <div class="sesgoabajo"></div>
+        </section>
+            <section class="miembros">
+                <div class="contenedor">
+                    <h2 class="sobre-mi">Conoce Algunos de mis Trabajos</h2>
+                    <h3 class="yo">Martha Lizarazo</h3>
+                    <div class="cards">
+                        <div class="card">
+                            <img src="logo-ml.png" alt="">
+                            <h4>Proyecto BurguerQueen</h4>
+                            <p>Lorem ipsum dolor sit.</p>
+                        </div>
+                        <div class="card">
+                            <img src="logo-ml.png" alt="">
+                            <h4>Red Social</h4>
+                            <p>Lorem ipsum dolor sit.</p>
+                        </div>
+                        <div class="card">
+                            <img src="logo-ml.png" alt="">
+                            <h4>Replica de Pinterest</h4>
+                            <p>Lorem ipsum dolor sit.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="fondo">
+
+                <div class="sesgoarriba"></div> 
+             
+              <div class="contenedor">
+                  <h2 class="estudios">Estudios Realizados</h2>
+                  <h3 class="subtitulo-estudios">Estudios / Cursos</h3>
+                  <div class="trabajos-realizados">
+                      <div class="mis-trabajos"><img src="logo.jpg" alt=""></div>
+                      <div class="mis-trabajos"><img src="logo.jpg" alt=""></div>
+                      <div class="mis-trabajos"><img src="logo.jpg" alt=""></div>
+                  </div>
+              </div>
+             <div class="sesgoabajo-unico"></div>
+            </section>
+    </main>
+    <footer>
+        <div class="contenedor">
+            <h2 class="titulo-footer">Contacto</h2>
+            <h3 class="subtitulo-footer">Puedes ubicarme en:</h3>
+            <div class="footer">
+
+
+            </div>
+        </div>
+    </footer>
     <script src="particles.js"></script>
     <script src="particulas.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
