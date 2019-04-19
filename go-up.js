@@ -6,7 +6,7 @@ $(document).ready(function(){
 		}, 300);
 	});
  
-	$(window).scroll(function(){
+	$(window.onload).scroll(function(){
 		if( $(this).scrollTop() > 0 ){
 			$('.go-up').slideDown(300);
 		} else {
