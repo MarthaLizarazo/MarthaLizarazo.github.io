@@ -278,6 +278,12 @@ header .sesgoabajo {
   padding: 52px 0;
 }
 
+.imagge {
+  width: 100%;
+  height: auto;
+}
+
+
 /* Main */
 
 .sobre-mi {
@@ -371,10 +377,9 @@ header .sesgoabajo {
 .card {
   margin: 20px 0;
   width: 33%;
-  height: 70%;
   text-align: center;
   padding: 20px;
-  box-shadow: 0px 0px 4px 0 rgba(52, 73, 94, 0.849);
+
 }
 
 .card h4 {
