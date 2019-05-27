@@ -425,13 +425,30 @@ header .sesgoabajo {
 }
 
 .estudios {
-  font-size: 56px;
-  margin-top: 5px;
+  font-size: 40px;
+  margin-top: -50px;
+  color: red;
+}
+
+.descripcion {
+  font-size: 24px;
+  width: 65%;
+  text-align: justify;
+  margin-top: -5%;
+  margin-left: 35%;
+  margin-bottom: 15%;
+}
+
+.lista {
+  font-size: 20px;
+  margin-top: -150px;
+  margin-left: 35%;
 }
 
 .subtitulo-estudios {
-  font-size: 24px;
-  font-weight: 300;
+  font-size: 30px;
+  width: 65%;
+  margin-left: 35%;
   margin-bottom: 64px;
 }
 
